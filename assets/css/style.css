@@ -1,1 +1,52 @@
-
+body{
+	font-family: 'Open Sans',Lato;
+	font-size: 20px;
+	background: gray;
+	color: #f3f3f3;
+	line-height: 1.5em;
+}
+.mb-30{
+	margin-bottom: 30px;
+}
+/*dropdown*/
+/*menu*/
+.menu-title-two,.menu-title-one{
+	color: darkblue;
+}
+.menu-title-two{
+	margin: 20px auto;
+	}
+.menu-list-one,.menu-list-two{
+	width: 300px;
+	height: 200px;
+	overflow-y: auto;
+}
+.menu-list-one a,.menu-list-two a{
+	color: #000;
+}
+/*bookshow*/
+.book-show  img.cover{
+	width: 120px;
+	height: 150px;
+}
+.book-show .title{
+	font-size: 15px;
+	/*overflow text hide*/
+	text-overflow: ellipsis;
+	white-space: nowrap;
+  overflow: hidden;
+}
+.book-show .price{
+	color: black;
+	font-size: 13px;
+	font-weight: lighter;
+}
+.book-show .action{
+	text-align: center;
+margin-top: 5px;	
+	font-size: 12px;
+	cursor: pointer;
+}
+.book-show .action .fa-shopping-basket,.book-show .action .fa-eye{
+	margin-right: 8px;
+}
