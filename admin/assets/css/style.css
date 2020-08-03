@@ -1,1 +1,93 @@
+/*Globalcss*/
+body{
+	font-family: 'Open Sans',Lato;
+	font-size: 20px;
+	background: rgba(236, 240, 241,.9);
+	color: #f3f3f3;
+	line-height: 1.5em;
+}
+/*loginform*/
+.loginform,.regform{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loginform h1,.regform h1{
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+/*registerform*/
 
+/*books*/
+#books{
+margin-bottom: 20px;
+padding:20px;
+background: #f3f3f3;
+}
+#books .covers{
+	width: 140px;
+}
+#books {
+	list-style: none;
+	padding:0;
+	display: flex;
+justify-content: space-between;
+}
+#books li .title{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#books .action a{
+	text-decoration: none;
+	font-size: 20px;
+}
+#books .action a i,#cats-list .action a i{
+	margin:0px 8px;
+}
+/*new books*/
+#manage-style form{
+	margin:0 auto;
+	border: 3px solid black;
+	width:900px;
+	padding:30px 50px;
+}
+#manage-style .form-group{
+	margin:15px 0px;
+}
+#manage-style form label{
+	font-weight: bold;
+}
+#manage-style .cover{
+	width: 140px;
+}
+/*cats-list*/
+#cats-list,#edit-cat,#add-cat,#authors{
+	width: 600px;
+	padding:20px;
+	font-size: 20px;
+}
+#cats-list ul li{
+color:black;
+}
+#cats-list .action a{
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+.action a.del:hover{
+	color: darkred;
+}
+.action a.edit:hover{
+	color: darkgreen;
+}
+.action a.edit{
+	color: green;
+}
+.action a.del{
+	color: red;
+}
+/*cat*/
+#edit-cat,#add-cat{
+	border: 2px solid black;
+}
