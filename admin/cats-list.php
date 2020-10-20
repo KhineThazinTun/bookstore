@@ -23,7 +23,7 @@ $query=mysqli_query($conn,$sql);
 		<?php echo $res['name']; ?>
 		<div class="action">
 		<a href="cats-edit.php?id=<?php echo $res['id'];?>" class="edit">
-		<i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+		<i class="far fa-edit"></i></a>
 		<a href="cats-del.php?id=<?php echo $res['id'];?>" class="del">
 		<i class="fa fa-trash" aria-hidden="true"></i></a></div>
 		</li>
