@@ -29,11 +29,11 @@ $userquery=mysqli_query($conn,"SELECT username FROM users WHERE id='$id'");
 				<a class="nav-item nav-link" href="orders.php">Manage Orders</a>
 				<a class="nav-item nav-link" href="cats-list.php">Manage Category</a>
 				<a class="nav-item nav-link" href="author-list.php">Manage Author</a>
-				<a class="nav-item nav-link" href="logout.php">Logout</a>
+				<a class="nav-item nav-link" href="delivered.php" >View Delivered Orders</a>
 			</div>
 			
 		</div>
-<a href="delivered.php" class="text-info">View Delivered Orders</a>
+<a class="nav-item text-info" href="logout.php">Logout</a>
 	</nav>
 </body>
 </html>
