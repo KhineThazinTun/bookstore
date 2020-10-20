@@ -41,7 +41,7 @@ include ('assets/confs/config.php');
 		<?php echo $row['name']; ?>
 		<div class="action">
 		<a href="author-edit.php?id=<?php echo $row['id'];?>" class="edit">
-		<i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+		<i class="far fa-edit"></i></a>
 		<a href="author-del.php?id=<?php echo $row['id'];?>" class="del">
 		<i class="fa fa-trash" aria-hidden="true"></i></a></div>
 		</li>
