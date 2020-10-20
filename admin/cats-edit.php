@@ -25,7 +25,7 @@ $query=mysqli_fetch_assoc($row);
 			<div class="form-group">
 <label>Remark</label>
 			<textarea name="remark" class="form-control" ><?php echo $query['remark'] ?></textarea></div>
-			<input type="submit" value="Submit">
+			<input type="submit" class="btn btn-success" value="Submit">
 			<a href="cats-list.php" class="btn btn-dark">Back</a>
 		</form>
 	</div>
